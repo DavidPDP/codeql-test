@@ -1,6 +1,11 @@
-def is_normal(f):
-    if True:
-        print("True is true!")
-    return f == f
+def unclear():
+    # Returns [ "first part of long string and the second part", "/usr/local/usr/bin" ]
+    return [
 
-print(is_normal(2.1))
+        "first part of long string"
+        " and the second part",
+        "/usr/local"
+        "/usr/bin"
+    ]
+
+print(unclear())
