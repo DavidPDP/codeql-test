@@ -1,11 +1,3 @@
-def unclear():
-    # Returns [ "first part of long string and the second part", "/usr/local/usr/bin" ]
-    return [
-
-        "first part of long string"
-        " and the second part",
-        "/usr/local"
-        "/usr/bin"
-    ]
-
-print(unclear())
+x = 42
+x = 12
+print(x)
